@@ -1,0 +1,32 @@
+{
+  "name": "Color Picker Pro",
+  "description": "A professional color picker extension",
+  "version": "2.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon64.png",
+      "32": "images/icon64.png",
+      "48": "images/icon64.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon64.png",
+    "32": "images/icon64.png",
+    "48": "images/icon64.png"
+
+  }
+}
